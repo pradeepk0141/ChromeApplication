@@ -32,10 +32,11 @@
                 <td>
                     <asp:Button runat="server" CssClass="btn btn-primary" Text="Exclusive Story" ID="btnExclusive" OnClick="btnExclusive_Click" />
                 </td>
+                <%--New Requirement Starts from here --%>
                 <td>
                     <asp:Button runat="server" CssClass="btn btn-primary" Text="UR Split RoI" ID="btnURSplitRoI" OnClick="btnURSplitRoI_Click" />
                 </td>
-                <td style="display:none;">
+                <td style="display: none;">
                     <asp:Button runat="server" CssClass="btn btn-primary" Text="DoD Story Trend" ID="btnDoDStoryTrend" OnClick="btnDoDStoryTrend_Click" />
                 </td>
                 <td style="display: none;">
